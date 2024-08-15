@@ -14,7 +14,7 @@ public class CalculoCrRequest {
         this.notas = notas;
     }
 
-    public List<CargaHoraria> getCargaHoraria() {
+    public List<CargaHoraria> getCargasHorarias() {
         return cargasHorarias;
     }
 

@@ -1,13 +1,13 @@
 package br.com.CalculcadoraCr.model;
 
 public class Nota {
-    private double valor;
+    private double valor; 
+
+    public Nota() {
+    }
 
     public Nota(double valor) {
         this.valor = valor;
-    }
-
-    public Nota() {
     }
 
     public double getValor() {
