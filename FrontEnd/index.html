@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de CR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Coeficiente de Rendimento</h1>
+        <form id="crForm">
+            <div class="input-group">
+                <label for="grades">Notas (separadas por vírgula):</label>
+                <input type="text" id="grades" required>
+            </div>
+            <div class="input-group">
+                <label for="credits">Cargas Horárias (separadas por vírgula):</label>
+                <input type="text" id="credits" required>
+            </div>
+            <button type="submit">Calcular CR</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

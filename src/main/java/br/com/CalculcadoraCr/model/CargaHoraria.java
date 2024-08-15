@@ -1,20 +1,20 @@
 package br.com.CalculcadoraCr.model;
 
 public class CargaHoraria {
-    private int horas;
+    private double horas;
 
     public CargaHoraria() {
     }
 
-    public CargaHoraria(int horas) {
+    public CargaHoraria(double horas) {
         this.horas = horas;
     }
 
-    public int getHoras() {
+    public double getHoras() {
         return horas;
     }
 
-    public void setHoras(int horas) {
+    public void setHoras(double horas) {
         this.horas = horas;
     }
 }
